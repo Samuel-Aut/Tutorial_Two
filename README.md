@@ -53,3 +53,28 @@ From this comparison, it is evident that storing a string requires significantly
 
 **c)** Storing an Address: Saving an address in the contract's data requires gas because any changes to the Ethereum blockchain use gas. The cost depends on whether it's new data or an update. Storing an address usually costs less than storing bigger data types like strings or arrays
 
+### 3. Above, where it says STORAGE AT 0X...., what does this mean? Are there differences between someone's Ethereum Address and where your contract is stored?
+
+![3](https://github.com/user-attachments/assets/fa03a993-8947-4301-932d-788dd50b4e3e)
+
+**STORAGE AT 0X...**
+The phrase "STORAGE AT 0x..." refers to where a contract's data is stored on the Ethereum blockchain. Each contract has its own storage space, separate from user addresses.
+
+**Differences:**
+Ethereum Address: A unique identifier for a user or contract on Ethereum, allowing transactions and interactions with contracts.
+
+**Contract Storage Location:** Specific to each contract, holding its data. The contract address lets you interact with the contract, while the storage location contains the actual data used by the contract.
+
+### 4. Open Owner.sol in Remix. What does this contract do? Why would this be required?
+
+**Owner.sol Contract**
+The Owner.sol contract is used to manage who owns other contracts or assets. It typically includes functions to set and check ownership, transfer ownership, and limit access to certain actions based on who owns it.
+> Purpose:
+
+**Access Control:** Ensures only the owner can perform important actions within the contract.
+
+**Security:** Protects against unauthorized access, which is crucial for preventing attacks or misuse.
+This type of contract is essential in many decentralized applications (dApps) to enforce security measures and manage permissions effectively.
+
+
+
