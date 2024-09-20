@@ -76,5 +76,51 @@ The Owner.sol contract is used to manage who owns other contracts or assets. It 
 **Security:** Protects against unauthorized access, which is crucial for preventing attacks or misuse.
 This type of contract is essential in many decentralized applications (dApps) to enforce security measures and manage permissions effectively.
 
+### 5. What are two development enviornments or tool packages that can help with Ethereum smart contract development (besides Remix)? Choose one of these and setup your local environment to start using it. Include a screenshot showing your dev environment.
 
+I used Hardhat for testing project. Hardhat is a development environment for compiling, deploying, testing, and debugging Ethereum software. It's widely used due to its flexibility, support for plugins, and local Ethereum network simulation.
 
+![4](https://github.com/user-attachments/assets/9dfd4277-3122-4f5b-9e61-3f0f5b786fca)
+
+**1.Runb a Local Etheruem Node**
+
+```
+npx hardhat node
+
+```
+**2.Deploy a Contract** : Write a simple script  to deploy a contract.
+
+```
+npx hardhat run scripts/deploy.js --network localhost
+
+```
+**Deployment Output**
+
+```
+Deploying contracts with the account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Unlock time set to: 1726824197
+Contract factory created.
+Lock contract deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Locked amount: 0.001 ETH
+Deployment script completed successfully.
+```
+
+**Ethereum Account Details e.g**
+
+```
+Account #19: 0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 (10000 ETH)
+Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
+```
+**Transaction Details**
+
+```
+Contract deployment: Lock
+Contract address:    0x5fbdb2315678afecb367f032d93f642f64180aa3
+Transaction:         0xdac6bcfe43350ee328cbe7097d3e5974c01ef7f498bbf307acaa4a53ae8aaabe
+From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+Value:               0.1 ETH
+Gas used:            326100 of 30000000
+Block #1:            0x8f6c2c9e2150e7deb076ff6a6719cf165b24d8b9b42442b7ed132e0d2a34c8da
+```
+**Hardhat Network:** Hardhat comes with a built-in local Ethereum network designed specifically for development. This network allows developers to deploy contracts, run tests, and debug code within their local environment.
+**Flexible Task Runner:** Hardhat Runner, the main component, is a flexible and extensible task runner that helps manage and automate recurring tasks in smart contract and dApp development
