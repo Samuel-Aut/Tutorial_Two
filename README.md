@@ -1,7 +1,7 @@
 # Tutorial_Two COMP726
 ### Samuel William 18034517
 
- <h3 align="left">Languages and Tools:</h3>
+<h3 align="left">Languages and Tools:</h3>
 <p align="left">
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
@@ -10,7 +10,7 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/>
   </a>
   <a href="https://hardhat.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/ChainSafe/web3.js/1.x/assets/logo/hardhat.svg" alt="hardhat" width="40" height="40"/>
+    <img src="https://icon.icepanel.io/Technology/svg/Hardhat.svg" alt="hardhat" width="40" height="40"/>
   </a>
   <a href="https://soliditylang.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/solidity/solidity-original.svg" alt="solidity" width="40" height="40"/>
