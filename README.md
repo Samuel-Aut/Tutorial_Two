@@ -43,3 +43,13 @@ In this experiment, we analyzed the gas costs associated with storing a string v
 **Gas Cost for Storing String: 44,801 gas**
 **Gas Cost for Storing Integer: 6,680 gas**
 From this comparison, it is evident that storing a string requires significantly more gas than storing an integer. This difference highlights the increased complexity and storage requirements for string data types in Ethereum smart contracts.
+
+### 2. Where is a deployed contract stored in Ethereum? Comment on the different gas costs for a) deploying a contract, b) calling a function, and c) storing an address.
+
+
+**a)** Deploying a Contract: This involves costs for saving the contract code on the blockchain. Deploying can be expensive because it includes running the contract's constructor and initially storing variables.
+
+**b)** Calling a Function: This usually costs less than deploying because it involves running a function and possibly changing the contract's data. The cost depends on how complex the function is and how much data it changes.
+
+**c)** Storing an Address: Saving an address in the contract's data requires gas because any changes to the Ethereum blockchain use gas. The cost depends on whether it's new data or an update. Storing an address usually costs less than storing bigger data types like strings or arrays
+
